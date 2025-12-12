@@ -1,0 +1,39 @@
+body { 
+    font-family: Arial; 
+    max-width: 500px; 
+    margin: 50px auto; 
+    text-align: center; 
+    background: #1a1a1a; 
+    color: #e0e0e0; 
+    min-height: 100vh;
+  }
+  input { 
+    padding: 10px; 
+    font-size: 18px; 
+    width: 100px; 
+    background: #333; 
+    color: #e0e0e0; 
+    border: 1px solid #555; 
+  }
+  input::placeholder { color: #888; }
+  button { 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    background: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover { background: #45a049; }
+  .message { 
+    margin: 20px 0; 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 15px; 
+    border-radius: 10px;
+    background: #2a2a2a;
+    border-left: 5px solid #4CAF50;
+  }
+  h1 { color: #4CAF50; }
+  p { color: #ccc; }
